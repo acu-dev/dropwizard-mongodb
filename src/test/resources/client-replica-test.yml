@@ -1,0 +1,6 @@
+mongoClient:
+    servers:
+        - port: 27017
+        - port: 27018
+    options:
+        requiredReplicaSetName: myRepSet1

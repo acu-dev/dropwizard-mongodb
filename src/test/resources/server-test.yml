@@ -1,0 +1,12 @@
+server:
+    host: test
+server2:
+    port: 35403
+server3:
+    host: blee
+    port: 27018
+servers:
+    - host: test
+    - port: 35403
+    - host: blee
+      port: 27018

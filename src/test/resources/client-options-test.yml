@@ -1,0 +1,23 @@
+mongoClient:
+    options:
+        description: A MongoClient for the ages
+        minConnectionsPerHost: 42
+        connectionsPerHost: 84
+        threadsAllowedToBlockForConnectionMultiplier: 7
+        maxWaitTime: 300000
+        maxConnectionIdleTime: 30
+        maxConnectionLifeTime: 60
+        connectTimeout: 20000
+        socketTimeout: 600000
+        socketKeepAlive: true
+        readPreference: secondaryPreferred
+        dbDecoderFactory: lazy
+        writeConcern: replicas_safe
+        cursorFinalizerEnabled: false
+        alwaysUseMBeans: true
+        heartbeatFrequency: 10000
+        heartbeatConnectRetryFrequency: 20
+        heartbeatConnectTimeout: 40000
+        heartbeatSocketTimeout: 40000
+        heartbeatThreadCount: 2
+        acceptableLatencyDifference: 30

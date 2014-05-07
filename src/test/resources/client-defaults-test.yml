@@ -1,0 +1,3 @@
+mongoClient:
+    server:
+        host: localhost
